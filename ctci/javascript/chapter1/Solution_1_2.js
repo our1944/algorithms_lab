@@ -2,11 +2,7 @@
 var assert = require('assert');
 
 function reverseStr(word) {
-  var str = '';
-  for (var i= word.length -1;i >=0;  i--) {
-    str += word[i];
-  }
-  return str;
+  return word.split("").reverse().join("");
 }
 
 
